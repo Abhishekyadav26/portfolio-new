@@ -249,7 +249,7 @@ function App() {
                       darkMode ? "text-gray-300" : "text-gray-700"
                     }`}
                   >
-                    I've particate for 15+ Hackathons and Won 1
+                    I've participate for 15+ Hackathons and Won 1
                   </span>
                 </li>
                 <li className="flex items-start space-x-2">
