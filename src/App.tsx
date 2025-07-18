@@ -112,6 +112,22 @@ function App() {
       readTime: "12 min read",
       link: "https://medium.com/@aky732244/unpacking-rwas-on-solana-a-deep-dive-into-real-world-assets-on-the-fastest-chain-bdb3d3a6aced",
     },
+    {
+      id: "3",
+      title: "Builders of Bharat",
+      excerpt:"The Builders of Bharat: India Impact on the Solana Breakout Hackathon",
+      date: "2025-06-10",
+      readTime: "12 min read",
+      link: "https://medium.com/@aky732244/the-builders-of-bharat-indias-impact-on-the-solana-breakout-hackathon-101fd3b9b822",
+    },
+    {
+      id: "4",
+      title: "State of Stablecoins on Solana",
+      excerpt:"Stablecoins are quietly becoming the backbone of crypto adoption — both on-chain & off-chain",
+      date: "2025-06-29",
+      readTime: "11 min read",
+      link: "https://medium.com/@aky732244/deep-dive-on-the-state-of-stablecoins-on-solana-506c0ca764db",
+    },
   ];
 
   const currentTime = new Date().toLocaleTimeString("en-US", {
