@@ -224,7 +224,7 @@ function App() {
                   <span className={`text-sm ${
                     darkMode ? 'text-gray-300' : 'text-gray-700'
                   }`}>
-                    my free time, I like contribute to the community {' '}
+                    In my free time, I like contribute to the community {' '}
                     <span className="inline-flex items-center space-x-1">
                       <span>Hackquest,</span>
                       <span>Superteam</span>
