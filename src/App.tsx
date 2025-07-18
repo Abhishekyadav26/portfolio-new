@@ -48,33 +48,33 @@ function App() {
   const projects: Project[] = [
     {
       id: '1',
-      title: 'TaskFlow [In Progress]',
-      description: 'A modern task management app with real-time collaboration and AI-powered insights',
+      title: 'Vocalis',
+      description: 'Vocalis is a next-generation platform that lets you control your entire DevOps and productivity workflow using just your voice',
       status: 'Building',
       icon: '🚀',
-      link: '#'
+      link: 'https://vocalis-new.onrender.com/'
     },
     {
       id: '2',
-      title: 'CodeSpace [Live]',
-      description: 'An online IDE with collaborative coding features and instant deployment',
+      title: 'ReEstate',
+      description: 'ReEstate is a decentralized platform that enables tokenization of real estate assets using blockchain technology',
       status: 'Live',
       icon: '💻',
-      link: '#'
+      link: 'https://real-estate-tau-taupe-76.vercel.app/'
     },
     {
       id: '3',
-      title: 'DataViz Pro',
-      description: 'Interactive data visualization platform for business analytics',
+      title: 'MultiChain NFT app',
+      description: 'MultiChain NFT Claimable app empowers users to seamlessly claim NFTs across multiple blockchain networks',
       icon: '📊',
-      link: '#'
+      link: 'https://multi-chain-nf-ts-app-n97z.vercel.app/'
     },
     {
       id: '4',
-      title: 'MindMap AI',
-      description: 'AI-powered mind mapping tool for brainstorming and idea organization',
+      title: 'Aia Stake',
+      description: 'Our cutting-edge staking and rewarding platform is built on the AIA blockchain, designed to provide users with secure, scalable, and efficient staking opportunities. The app allows users to stake their AIA tokens and other supported assets',
       icon: '🧠',
-      link: '#'
+      link: 'https://aia-stake.vercel.app/'
     }
   ];
 
