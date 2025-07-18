@@ -64,7 +64,7 @@ function App() {
         "Vocalis is a next-generation platform that lets you control your entire DevOps and productivity workflow using just your voice",
       status: "Building",
       icon: "🚀",
-      link: "https://vocalis-new.onrender.com/",
+      link: "https://github.com/Abhishekyadav26/vocalis2",
     },
     {
       id: "2",
@@ -389,7 +389,7 @@ function App() {
         </section>
 
         {/* Projects and Writing Grid */}
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-1 gap-12">
           {/* Projects Section */}
           <section id="projects">
             <h3
