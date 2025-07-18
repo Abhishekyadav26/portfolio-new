@@ -87,7 +87,7 @@ function App() {
       id: "4",
       title: "Aia Stake",
       description:
-        "designed to provide users with secure, scalable, and efficient staking opportunities. The app allows users to stake their AIA tokens and other supported assets",
+        "Designed to provide users with secure, scalable, and efficient staking opportunities. The app allows users to stake their AIA tokens and other supported assets",
       icon: "🧠",
       link: "https://aia-stake.vercel.app/",
     },
