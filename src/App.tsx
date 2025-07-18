@@ -223,8 +223,8 @@ function App() {
                   <span className="text-sm mt-1">•</span>
                   <span className={`text-sm ${
                     darkMode ? 'text-gray-300' : 'text-gray-700'
-                  }`}>2020
-                    In my free time, I like contribute to the community {' '}
+                  }`}>
+                    my free time, I like contribute to the community {' '}
                     <span className="inline-flex items-center space-x-1">
                       <span>Hackquest,</span>
                       <span>Superteam</span>
