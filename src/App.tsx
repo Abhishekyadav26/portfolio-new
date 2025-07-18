@@ -385,9 +385,12 @@ function App() {
             </h3>
             <div className="space-y-6">
               {projects.map((project) => (
-                <div
+                <a
                   key={project.id}
-                  className={`group p-4 rounded-xl transition-all duration-200 ${
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`block group p-4 rounded-xl transition-all duration-200 ${
                     darkMode
                       ? "bg-gray-800/50 hover:bg-gray-800 border border-gray-700/50"
                       : "bg-white hover:bg-gray-50 border border-gray-200 shadow-sm hover:shadow-md"
@@ -430,14 +433,15 @@ function App() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </section>
 
           {/* Writing Section */}
-          <section id="writing">
+          <section id="writing" aria-labelledby="writing-heading">
             <h3
+              id="writing-heading"
               className={`text-sm font-medium uppercase tracking-wider mb-6 ${
                 darkMode ? "text-gray-400" : "text-gray-500"
               }`}
@@ -447,9 +451,12 @@ function App() {
             <div className="space-y-6">
               {posts.length > 0 ? (
                 posts.map((post) => (
-                  <article
+                  <a
+                    href={post.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     key={post.id}
-                    className={`group p-4 rounded-xl transition-all duration-200 cursor-pointer ${
+                    className={`group block p-4 rounded-xl transition-all duration-200 ${
                       darkMode
                         ? "bg-gray-800/50 hover:bg-gray-800 border border-gray-700/50"
                         : "bg-white hover:bg-gray-50 border border-gray-200 shadow-sm hover:shadow-md"
@@ -483,7 +490,7 @@ function App() {
                       <span>•</span>
                       <span>{post.readTime}</span>
                     </div>
-                  </article>
+                  </a>
                 ))
               ) : (
                 <div
